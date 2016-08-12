@@ -18,6 +18,9 @@ ToDo.controller('myController', ['$scope', function($scope){
             "expiration_date": "5/18/2016",
         }
         ];
+        $scope.remove = function(index) {
+            $scope.items.splice(index, 1);
+        };
     }]);
         ToDo.controller('myController1', ['$scope', function($scope){
     $scope.items = [
@@ -40,6 +43,9 @@ ToDo.controller('myController', ['$scope', function($scope){
             "start_date": "5/19/2016"
         },
     ];
+    $scope.remove = function(index) {
+            $scope.items.splice(index, 1);
+        };
 }]);
 ToDo.controller('myController2', ['$scope', function($scope){
     $scope.items = [
@@ -62,6 +68,9 @@ ToDo.controller('myController2', ['$scope', function($scope){
             "due_date": "5/20/2016"
         },
     ];
+    $scope.remove = function(index) {
+            $scope.items.splice(index, 1);
+        };
 }]);
  ToDo.controller('myController3', ['$scope', function($scope){
     $scope.items = [
@@ -84,6 +93,9 @@ ToDo.controller('myController2', ['$scope', function($scope){
             "expected_close": "5/19/2016"
         },
     ];
+    $scope.remove = function(index) {
+            $scope.items.splice(index, 1);
+        };
 }]);
 
  function Ctrl($scope)

@@ -23,6 +23,8 @@
 			<h2>{{item.activityName}}</h2>
 			<p class ="row">Expires: {{item.expiration_date}}
 	</p>
+
+	<button class ="btn btn-large btn-primary text-center newclass" ng-click="remove($index)"> Delete</button>
 </li>
 </ul>
 <ul class ="nobull" data-ng-controller="myController1">
@@ -33,6 +35,7 @@
 			<h2>{{item.activityName}}</h2>
 			<p class ="row">Starts: {{item.start_date}}
 	</p>
+	<button class ="btn btn-large btn-primary text-center newclass" ng-click="remove($index)"> Delete</button>
 </li>
 </ul>
 <ul class ="nobull" data-ng-controller="myController2">
@@ -43,6 +46,7 @@
 			<h2>{{item.activityName}}</h2>
 			<p class ="row">Due: {{item.due_date}}
 	</p>
+	<button class ="btn btn-large btn-primary text-center newclass" ng-click="remove($index)"> Delete</button>
 </li>
 </ul>
 <ul class ="nobull" data-ng-controller="myController3">
@@ -53,6 +57,7 @@
 			<h2>{{item.activityName}}</h2>
 			<p class ="row">Expected close date: {{item.expected_close}}
 	</p>
+	<button class ="btn btn-large btn-primary text-center newclass" ng-click="remove($index)"> Delete</button>
 </div>
 </li>
 </ul>

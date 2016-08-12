@@ -12,9 +12,16 @@ body {
 }
 .nobull{
 	list-style-type: none;
+
 }
 .nobull li{
 	list-style: none;
 	display: inline;
 	text-align: center;
+}
+
+.btn.newclass {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
