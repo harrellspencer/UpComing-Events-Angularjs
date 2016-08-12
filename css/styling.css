@@ -1,0 +1,20 @@
+body {
+	background-color: #A2DED0;
+}
+
+.jumbotron {
+	text-align: center;
+	opacity: 0.6;
+}
+.row {
+	padding-left: 2em;
+	text-align: center;
+}
+.nobull{
+	list-style-type: none;
+}
+.nobull li{
+	list-style: none;
+	display: inline;
+	text-align: center;
+}
